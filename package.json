@@ -1,0 +1,71 @@
+{
+  "name": "dashboard-imgfunnels-com",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "export NEXTAUTH_URL=\"http://localhost:3000\" && next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "schema": "prisma format prisma/schema.prisma && prisma generate",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/next-js": "^2.1.5",
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@floating-ui/dom": "^1.5.3",
+    "@floating-ui/react": "^0.25.4",
+    "@gitgraph/react": "^1.6.0",
+    "@gitkraken/shared-web-components": "^0.1.1-rc.9",
+    "@octokit/rest": "^20.0.2",
+    "@prisma/client": "^5.3.1",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@sanity/icons": "^2.4.1",
+    "@types/node": "20.3.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "echarts": "^5.4.3",
+    "echarts-for-react": "^3.0.2",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "framer-motion": "^10.16.4",
+    "hex-to-hsl": "^1.0.2",
+    "lorem-ipsum": "^2.0.8",
+    "lucide-react": "^0.284.0",
+    "luxon": "^3.4.3",
+    "next": "13.4.7",
+    "next-auth": "^4.23.1",
+    "octokit": "^3.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "react-virtualized": "^9.22.5",
+    "sift": "^17.0.1",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "5.1.6",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@octokit/types": "^12.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/luxon": "^3.3.2",
+    "@types/react-virtualized": "^9.21.23",
+    "@types/uuid": "^9.0.4",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "prisma": "^5.3.1",
+    "tailwindcss": "^3.3.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
+  }
+}
